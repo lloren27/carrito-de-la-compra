@@ -1,6 +1,8 @@
 Carrito de la compra 
 
 Que calcula el total del precio de dicha compra de los productos listados en el textarea. 
+Ejemplo :
+voucher,tshirt,mug.
 
 Además posee la peculiaridad de que tiene dos ofertas. 
 
