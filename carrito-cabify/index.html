@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito Cabify</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class=todo>
+  <h1> Cabify Shop</h1>
+  <table>
+    <tr>
+      <th>Codigo</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>voucher</td>
+      <td>Cabify Voucher</td>
+      <td>5€</td>
+    </tr>
+    <tr>
+      <td>tshirt</td>
+      <td>Cabify T-Shirt</td>
+      <td>20€</td>
+
+    </tr>
+    <tr>
+      <td>mug</td>
+      <td>Cabify Coffee Mug</td>
+      <td>7.5€</td>
+    </tr>
+  </table>
+  <h1>Cesta de la compra</h1>
+  <textarea id="compra" onfocus="marcar(this)"></textarea><br>
+  <span>Inserte su compra solo con el nombre de los códigos,seguido de comas:                     <em>mug,voucher,tshirt</em></span>
+  </br>
+  <input type="button" onclick="miFuncion()" value="Guarda la compra">
+  <button onclick="javascript:window.location.reload();"> Limpiar Carrito</button>
+  <h3>IMPORTE TOTAL
+    <h3>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
